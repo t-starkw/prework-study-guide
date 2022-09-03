@@ -11,11 +11,24 @@
     <header id="top">
       <h1>Prework Study Guide</h1>
       <img src="./assets/bowtie-cat.png" alt="Profile image of cat wearing a bow tie." />
+      <h2>✨ Open the Console to See What's Happening ✨</h2>
     </header>
     <main>
       <section class="card" id="html-section">
         <h2>HTML</h2>
         <ul>
+          <li>HTML is a markup language used to give a webpage structure.</li>
+          <li>HTML elements work together to provide the content and basic framework for all pages on the web.</li>
+          <li>HTML elements can include:</li><br>
+            <ol>
+              <li>Text elements</li>
+              <li>Image elements</li>
+              <li>Header elements</li>
+              <li>List elements</li>
+              <li>Meta-related elements</li>
+              <li>Content division elements</li>
+              <li>Semantic elements</li>
+            </ol><br>
           <li>The head element contains information about the webpage.</li>
           <li>The body element represents the visible content shown to the user.</li>
         </ul>
@@ -23,6 +36,20 @@
       <section class="card" id="css-section">
         <h2>CSS</h2>
         <ul>
+          <li>CSS (Cascading Style Sheet) defines how webpage content is presented to users.</li>
+          <li>CSS is used to define:</li><br>
+            <ol>
+              <li>Colors</li>
+              <li>Aesthetics</li>
+              <li>Visual Layout</li>
+              <li>Organization</li>
+            </ol><br>
+          <li>There are 3 ways to style a webpage with CSS:</li><br>
+            <ol>
+              <li><strong>Inline CSS</strong>: The method of styling an element directly in the HTML file. Inline styles apply to a specific HTML tag, using a style attribute with a CSS rule to style a particular webpage element. This method is useful for quick and permanant changes.</li>
+              <li><strong>Internal CSS</strong>: The method of embedding an entire style sheet directly into the HTML file using a style element within the head element. These CSS style sheet rules only apply to that page, and a single change to a CSS rule will apply to all of the tagged elements.</li>
+              <li><strong>External CSS</strong>: The method of allowing developers to keep all CSS rules in a separate file, linking that file to the HTML file using a link element placed in the HTML's head element. This is the most common method of CSS styling.</li>
+            </ol><br>
           <li>A margin indicates how much space we want around the outside of an element.</li>
           <li>A padding indicates how much space we want around the content inside an element.</li>
         </ul>
@@ -30,14 +57,36 @@
       <section class="card" id="git-section">
         <h2>Git</h2>
         <ul>
-          <li>git status: checks what branch we are currently on</li>
-          <li>git checkout -b branch-name: creates a new branch and switches to it</li>
+          <li>Git is a version control system that allows you to manage and keep track of each version of your project.</li>
+          <li>The command line is used to access Git.</li>
+          <li>Git commands can be used to initiate repositories, add code to a repository, or to view different versions of our code.</li>
+          <li>Some examples of git commands are:</li><br>
+            <ol>
+              <li><strong>git status</strong>: checks what branch we are currently on</li>
+              <li><strong>git checkout -b</strong>: creates a new branch and switches to it</li>
+              <li><strong>git add -A</strong>: adds code to current working branch.</li>
+              <li><strong>git commit -m</strong>: commits files to the current working branch.</li>
+              <li><strong>git pull origin main</strong>: checks to see if the local branch is in sync with the base branch in github.</li>
+              <li><strong>git push origin</strong>: pushes the local changes to the remote github branch.</li>
+            </ol><br>
         </ul>
       </section>
       <section class="card" id="javascript-section">
         <h2>JavaScript</h2>
         <ul>
-          <li>Insert JavaScript notes here.</li>
+          <li>JavaScript is a high-level dynamic programming language that adds interactivity to a webpage.</li>
+          <li>A variable is a named container that allows us to store data in our code.</li>
+          <li>Variables  may hold values with a variety of different data types:</li><br>
+            <ol>
+              <li><strong>String</strong>: A sequence of text known as a string enclosed by single quote marks.</li>
+              <li><strong>Number</strong>: This is a number. Numbers don't have quotes around them.</li>
+              <li><strong>Boolean</strong>: A true/false value. The words true and false are special keywords that don't need quote marks.</li>
+              <li><strong>Array</strong>: A structure that allows you to store multiple values in a single reference.</li>
+              <li><strong>Object</strong>: Everything in JavaScript is an object and can be stored in a variable.</li>
+            </ol><br>
+          <li>Conditionals are code structures used to test if an expression returns true or not.</li>
+          <li>Functions are a method of packaging functionality that you wish to reuse. After defining a body of code as a function, that code executes when the function is called.</li>
+          <li>Control flow is the order in which a computer executes code in a script.</li>
         </ul>
         </section>
     </main>
@@ -45,5 +94,6 @@
     <footer>
       <p>I can code!</p>
     </footer>
+    <script src="./assets/script.js"></script>
   </body>
 </html>
